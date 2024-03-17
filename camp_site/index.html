@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Bbbest Cccamp Sssite!!!</title>
+    <style>
+        body {
+            background-color:black;
+            color: antiquewhite;
+            font-family: 'Franklin Gothic Medium', sans-serif;
+        }
+        img {
+            width: 100vw;
+        }
+        h1 {
+            color:rgb(124, 211, 255);
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:bolder;
+            text-transform:uppercase;
+            /* border_bottom: 1px solid rgb(124,211,255); */
+            margin-top: 50px;
+        }
+        h2 {
+            color: rgb(124, 211, 255);
+            font-size: 1.5em;
+        }
+        p {
+            font-family:'Franklin Gothic Medium', sans-serif;
+            font-size:larger;
+            line-height:1.3em;
+        
+        }
+        .camp_schedule {
+            display: flex;
+            justify-content: center;
+        }
+        th {
+            text-align: left;
+        }
+        th[scope="rowgroup"],td[scope="rowgroup"] {
+            border: 1px antiquewhite solid;
+        }
+        .month_top {
+            border-top: 1px antiquewhite solid;
+            margin-left: none;
+            padding-left:none;
+        }
+        .bio_section div {
+            min-height: 230px;
+        }
+        .float_left {
+            float: left;
+            width: 200px;
+            height: 200px;
+            margin-right: 10px;
+        }
+        .float_right {
+            float: right;
+            width: 200px;
+            height: 200px;
+            margin-left: 10px;
+        }
+        form {
+            margin-top: 1.2em;
+        }
+    </style>
+    <!--When should you actually use embedded sheets, when a link to .css file will do?-->
+</head>
+<body>
+    <nav>
+        <!-- Internal links -->
+    </nav>
+    <div class="banner">
+        <h1>Astronomy Camp</h1>
+        <div><img src="images/pleiades.jpg" alt="kids at clown camp" id="banner"></div>
+        <p>Welcome to Astronomy Camp, where the wonders of the universe come to life! 
+            Our camp offers a unique opportunity for young astronomers to explore
+            the cosmos, learn from expert astronomers, and gaze at the stars through powerful
+            telescopes. Whether you're a beginner or a seasoned stargazer, our camp provides
+            an unforgettable experience that will ignite your curiosity and passion for the
+            night sky. Join us for an adventure that is truly out of this world!
+        </p>
+    </div>
+    <hr>
+    <div class="camp_schedule">
+        <table>
+            <caption>Astronomy Camp Session Dates and Times</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th colspan="2">Camp Dates</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Date</th>
+                    <th>Pick-up & Drop-off time</th>
+                    <th>Planned Activities</th>
+                </tr>
+            </thead>
+            <tbody>
+    <!--June Schedule-->
+                <tr>
+                    <th scope="rowgroup" rowspan="4">June</th>
+                    <td class="month_top">June 1st</td>
+                    <td class="month_top">Drop-off: 10:00am</td>
+                    <td class="month_top">Introduction to Astronomy</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td>June 28th</td>
+                    <td>Pick-up: 3:00pm</th>
+                    <td>Telescope Basics</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Night Sky Observations</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Campfire Stories</td>
+                </tr>
+    <!--July Schedule-->
+                <tr>
+                    <th scope="rowgroup" rowspan="4">July</th>
+                    <td class="month_top">July 6th</td>
+                    <td class="month_top">Drop-off: 10:00am</td>
+                    <td class="month_top">Solar System Exploration</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td>August 2nd</td>
+                    <td>Pick-up: 3:00pm</th>
+                    <td>Constellation Mapping</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Astrophotography</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Stargazing party</td>
+                </tr>
+    <!--August Schedule-->
+                <tr class="month_top">
+                    <th scope="rowgroup" rowspan="4">August</th>
+                    <td class="month_top">August 8th</td>
+                    <td class="month_top">Drop-off: 10:00am</td>
+                    <td class="month_top">Galaxy Studies</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td>September 5th</td>
+                    <td>Pick-up: 3:00pm</th>
+                    <td>Space Weather</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Alien Life Search</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Farewell Ceremony</td>
+                </tr>
+    <!--September Schedule-->
+                <tr class="month_top">
+                    <th scope="rowgroup" rowspan="4">September</th>
+                    <td class="month_top">September 12th</td>
+                    <td class="month_top">Drop-off: 10:00am</td>
+                    <td class="month_top">Space Exploration History</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td>October 10th</td>
+                    <td>Pick-up: 3:00pm</th>
+                    <td>Rocket Building Workshop</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Space Camp Olympics</td>
+                </tr>
+                <tr>
+                    <!--filled-->
+                    <td></td>
+                    <td></td>
+                    <td>Closing Remarks</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="bio_section">
+        <div>
+            <h2>Leonard Hofstadter</h2>
+            <p>
+                <img class="float_left" src="images/leonard.webp" alt="Picture of Leonard">
+                Dr. Leonard Hofstadter is an experimental physicist with a passion for
+                 astronomy. With a friendly and approachable demeanor, Leonard enjoys
+                  engaging campers in hands-on activities and telescope observations. 
+                  Leonard's knowledge of the night sky and his ability to explain 
+                  complex concepts in simple terms make him a favorite among campers.
+            </p>
+        </div>
+        <div>
+            <h2 style="text-align: right;">Sheldon Cooper</h2>
+            <p>
+                <img class="float_right" src="images/sheldon.jpeg" alt="Picture of Sheldon">
+                Dr. Sheldon Cooper is a theoretical physicist with a penchant for 
+                precision and a love for all things scientific. As a camp counselor, 
+                Sheldon is dedicated to ensuring that every camper understands the 
+                intricacies of the universe. From lectures on quantum mechanics to 
+                debates on the existence of extraterrestrial life, Sheldon's intellect 
+                and wit make him a memorable counselor.
+            </p>
+        </div>
+        <div>
+            <h2>Aaron R.</h2>
+            <p>
+                <img class="float_left" src="images/me.jpeg" alt="Picture of Aaron">
+                As the head counselor at Astronomy Camp, Aaron brings a passion for all 
+                things space-related. With a background in astrophysics, Aaron loves sharing 
+                the wonders of the cosmos with young campers. Whether it's identifying 
+                constellations or discussing the latest discoveries in space exploration, 
+                Aaron's enthusiasm is contagious.
+            </p>
+        </div>
+    </div>
+    <br>
+    <form action="" method="GET">
+        <fieldset>
+            <p>Sign up NOW!</p>
+            <ul>
+                <!-- Camper Information Personal -->
+                <li>
+                    <label for="full_name">
+                        <p>First Name:<input name="first_name" type="text" required>Last Name:<input name="last_name" type="text" required></p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <p>
+                            Phone:<input name="telephone" type="tel" required>
+                            Email:<input name="email" type="email" required>
+                        </p>
+                    </label>
+                </li>
+                <!-- Age Selection -->
+                <li>
+                    <label>
+                        What is your camper's age?
+                        <select name="camper_age_range">
+                            <option value="0-5">0-5</option>
+                            <option value="6-8">6-8</option>
+                            <option value="9-12">9-12</option>
+                            <option value="13-15">13-15</option>
+                            <option value="16-18">16-18</option>
+                            <option value="18+">18+</option>
+                        </select>
+                    </label>
+                </li>
+                <!--Month Selection (Date Picker)-->
+                <li>
+                    <label>
+                        <p>Month you're attending: 
+                        <select name="month_choice">
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                        </select></p>
+                    </label>
+                </li>
+                <!-- Picture upload -->
+                <li>
+                    <label>
+                        Upload a photo of your camper
+                        <input type="file" name="camper_picture" accept="image/*" required>
+                    </label>
+                </li>
+                <!-- T Shirt Selection -->
+                <li>
+                    <ol><label>Pick a T-Shirt Size:
+                        <li><input type="radio" name="t_shirt_size" value="small" checked>Small</li>
+                        <li><input type="radio" name="t_shirt_size" value="extra-small">Extra-Small</li>
+                        <li><input type="radio" name="t_shirt_size" value="medium">Medium</li>
+                        <li><input type="radio" name="t_shirt_size" value="extra-medium">Extra-Medium</li>
+                        <li><input type="radio" name="t_shirt_size" value="large">Large</li>
+                        <li><input type="radio" name="t_shirt_size" value="extra-large">Extra-Large</li>
+                    </label></ol>
+                </li>
+                <!-- Camper Activity Survey -->
+                <br>
+                <li>
+                    <ol>
+                        What kind's of activities would you like to see?
+                        <li><input type="checkbox" name="interests" value="stargazing">Stargazing</li>
+                        <li><input type="checkbox" name="interests" value="telescope_observing">Telescope Observing</li>
+                        <li><input type="checkbox" name="interests" value="astronomy_lectures">Astronomy Lectures</li>
+                        <li><input type="checkbox" name="interests" value="constellation_mapping">Constellation Mapping</li>
+                        <li><input type="checkbox" name="interests" value="night_sky_photography">Night Sky Photography</li>
+                        <li><input type="checkbox" name="interests" value="meteor_shower_watching">Meteor Shower Watching</li>
+                        <li><input type="checkbox" name="interests" value="solar_system_walk">Solar System Walk</li>
+                        <li><input type="checkbox" name="interests" value="spacecraft_design">Spacecraft Design</li>
+                        <li><input type="checkbox" name="interests" value="astrophotography_workshop">Astrophotography Workshop</li>
+                        <li><input type="checkbox" name="interests" value="planetarium_visit">Planetarium Visit</li>
+                    </ol>
+                </li>
+                <!-- Feedback -->
+                <li>
+                    <label>
+                        <p>Feedback:</p>
+                        <textarea rows="5" cols="80" name="" placeholder="I'm so excited"></textarea>
+                    </label>
+                </li>
+            </ul>
+            <input type="submit" value="Sign Me Up!">
+            <input type="reset" value="Clear Form">
+        </fieldset>
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    max-width:1000px;
+    margin: auto;
+}
+h1, h2 {
+    color: maroon;
+}
+section {
+    display:flex;
+    margin-left:2.5vw;
+    margin-right:2.5vw;
+}
+.left_bar {
+    width:150px;
+
+}
+.right_bar {
+    width: 75%;
+    /* border: solid black 1px; */
+}
+.skills {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.skills p {
+    width: 23%;
+}
+nav {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.image_box {
+    height: 100%;
+}
+.image_box img {
+    height:100%;
+}

@@ -1,0 +1,60 @@
+body {
+    background-color:black;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+img {
+    width: 100vw;
+}
+h1 {
+    color:rgb(124, 211, 255);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    text-transform:uppercase;
+    /* border_bottom: 1px solid rgb(124,211,255); */
+    margin-top: 50px;
+}
+h2 {
+    color: rgb(124, 211, 255);
+    font-size: 1.5em;
+}
+p {
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size:larger;
+    line-height:1.3em;
+
+}
+.camp_schedule {
+    display: flex;
+    justify-content: center;
+}
+th {
+    text-align: left;
+}
+th[scope="rowgroup"],td[scope="rowgroup"] {
+    border: 1px antiquewhite solid;
+}
+.month_top {
+    border-top: 1px antiquewhite solid;
+    margin-left: none;
+    padding-left:none;
+}
+.bio_section div {
+    min-height: 230px;
+}
+.float_left {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.float_right {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+form {
+    margin-top: 1.2em;
+}
